@@ -15,4 +15,4 @@ tar -vf teamspeak3-server_linux_amd64-3.7.1.tar.bz2
 
 WORKDIR teamspeak3-server_linux_amd64
 
-ENTRYPOINT ["/start.sh"]
+ENTRYPOINT sh ts3server_minimal_runscript.sh
